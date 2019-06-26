@@ -1,0 +1,105 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/81c1d7c1e2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button style="background-color: transparent" id="atras" class="btn btn-default btn-lg btn-block"[routerLink]="[ '/asistencia']"><i class="fas fa-arrow-circle-left" style="font-size: 35px;"></i></button>
+    <a class="navbar-brand" href="#" style="font-size: 30px; font-family: 'Ubuntu', sans-serif;">Asistencia - Zoila Riquez </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" style="font-size: 20px"><span class="glyphicon glyphicon-user" style="font-size: 20px"></span> Update Profile</a></li>
+        <li><a href="#" style="font-size: 20px"><span class="glyphicon glyphicon-log-in" style="font-size: 20px"></span> Close</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+      <h1 style="text-align: center; color: black; font-family: 'Montserrat', sans-serif; font-size: 30px"> Evaluador : Zoila Riquez Rodriguez</h1>
+      <h1 style="text-align: center; color: gray; font-family: 'Montserrat', sans-serif; font-size: 30px"> Fecha: Junio 20, 2019 </h1>
+      <p  style="text-align: center; color: black; font-family: 'Montserrat', sans-serif; font-size: 20px"><i class="far fa-calendar-check" style="color: green"></i> Puntual</p>
+      <p style="text-align: center; color: black; font-family: 'Montserrat', sans-serif; font-size: 20px"> <i class="far fa-calendar-minus" style="color: blue"></i> Tardanza</p>
+      <p style="text-align: center; color: black; font-family: 'Montserrat', sans-serif; font-size: 20px"> <i class="far fa-calendar-times" style="color: red"></i> Falta</p>
+  </div>  
+  <div class="container">
+      <table class="table table-hover" id="tablita" align="center">
+          <thead>
+            <tr>
+              <th scope="col" id="tres">#</th>
+              <th scope="col" id="dos" style="text-align: center">Empleado</th>
+              <th scope="col" colspan="3" id="uno">Asistencia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td  id="uno" > <i class="far fa-calendar-check" style="color: green"> </i></td>
+              <td  id="uno"> <i class="far fa-calendar-minus" style="color: blue"></i></td>
+              <td  id="uno"> <i class="far fa-calendar-times" style="color: red"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td  id="uno" > <i class="far fa-calendar-check" style="color: green"> </i></td>
+              <td  id="uno"> <i class="far fa-calendar-minus" style="color: blue"></i></td>
+              <td  id="uno"> <i class="far fa-calendar-times" style="color: red"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td >Laura</td>
+              <td  id="uno" > <i class="far fa-calendar-check" style="color: green"> </i></td>
+              <td  id="uno"> <i class="far fa-calendar-minus" style="color: blue"></i></td>
+              <td  id="uno"> <i class="far fa-calendar-times" style="color: red"></i></td>
+            </tr>
+            
+            <tr>
+                <th scope="row">4</th>
+                <td >Oscar</td>
+                <td  id="uno" > <i class="far fa-calendar-check" style="color: green"> </i></td>
+                <td  id="uno"> <i class="far fa-calendar-minus" style="color: blue"></i></td>
+                <td  id="uno"> <i class="far fa-calendar-times" style="color: red"></i></td>
+              </tr>
+              
+            <tr>
+                <th scope="row">5</th>
+                <td >Luz</td>
+                <td  id="uno" > <i class="far fa-calendar-check" style="color: green"> </i></td>
+                <td  id="uno"> <i class="far fa-calendar-minus" style="color: blue"></i></td>
+                <td  id="uno"> <i class="far fa-calendar-times" style="color: red"></i></td>
+              </tr>
+              
+            <tr>
+                <th scope="row">6</th>
+                <td >Larry </td>
+                <td  id="uno" > <i class="far fa-calendar-check" style="color: green"> </i></td>
+                <td  id="uno"> <i class="far fa-calendar-minus" style="color: blue"></i></td>
+                <td  id="uno"> <i class="far fa-calendar-times" style="color: red"></i></td>
+              </tr>
+              
+            <tr>
+                <th scope="row">7</th>
+                <td >Carl</td>
+                <td  id="uno" > <i class="far fa-calendar-check" style="color: green"> </i></td>
+                <td  id="uno"> <i class="far fa-calendar-minus" style="color: blue"></i></td>
+                <td  id="uno"> <i class="far fa-calendar-times" style="color: red"></i></td>
+              </tr>
+          </tbody>
+        </table>
+  </div>
+  <div class="container" id="botones">
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" id="button"> <i class="far fa-arrow-alt-to-left"></i>Guardar Cambios</button>
+    <button type="button" class="btn btn-secondary" id="button" style="background-color: seagreen">Modificar</button>
+  </div>
+
+  <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="basicModal.show()" mdbWavesEffect>Launch demo modal</button>

@@ -1,0 +1,22 @@
+#atras{
+    width: 70px;
+    height: 70px;
+    border: none;
+    color: none;
+}
+#calendar{
+    width: 900px;
+    height: 470px;
+    margin: center;
+}
+#cuadrito{
+    margin-left: 350px;
+    
+}
+#botones{
+    width: 750px;
+}
+#button{
+    width: 200px;
+    height: 45px;
+}
